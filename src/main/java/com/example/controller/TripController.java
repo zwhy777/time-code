@@ -63,9 +63,9 @@ public class TripController {
         long workhour = 0,workmin =0, worksecond = 0 , learnhour = 0, learnmin = 0, learnsecond =0;
         int sporttime = 0,playtime = 0;
         for(Trip trip:tripList){
-            if(Objects.equals(trip.getType(),"运动")){
+            if(Objects.equals(trip.getType(),"sport")){
                 sporttime = sporttime + 1;
-            }else if(Objects.equals(trip.getType(),"娱乐")){
+            }else if(Objects.equals(trip.getType(),"amusement")){
                 playtime = playtime + 1;
             }else{
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
@@ -73,12 +73,12 @@ public class TripController {
                 LocalDateTime dateTime2 = LocalDateTime.parse(trip.getEndTime(), formatter);
                 Duration duration = Duration.between(dateTime1, dateTime2);
                 System.out.println(trip.getType());
-                if(Objects.equals(trip.getType(),"工作")){
+                if(Objects.equals(trip.getType(),"work")){
                     workhour =workhour + duration.toHours();
                     workmin = workmin+duration.toMinutesPart();
                     worksecond = worksecond+duration.toSecondsPart();
                     System.out.println("工作" +workhour+ " 小时 " +workmin+ " 分钟 " +worksecond+ " 秒");
-                }else if(Objects.equals(trip.getType(), "学习")){
+                }else if(Objects.equals(trip.getType(), "study")){
                     learnhour =learnhour + duration.toHours();
                     learnmin = learnmin+duration.toMinutesPart();
                     learnsecond = learnsecond+duration.toSecondsPart();

@@ -92,22 +92,22 @@ public class TripServiceImpl implements TripService {
                     int dayOfWeek = (beginCalendar.get(Calendar.DAY_OF_WEEK) + 5) % 7;
                     int typeNumber;
                     switch (type) {
-                        case "杂事":
+                        case "chores":
                             typeNumber = 1;
                             break;
-                        case "运动":
+                        case "sport":
                             typeNumber = 2;
                             break;
-                        case "睡觉":
+                        case "sleep":
                             typeNumber = 3;
                             break;
-                        case "学习":
+                        case "study":
                             typeNumber = 4;
                             break;
-                        case "工作":
+                        case "work":
                             typeNumber = 5;
                             break;
-                        case "娱乐":
+                        case "amusement":
                             typeNumber = 6;
                             break;
                         default:
@@ -168,22 +168,22 @@ public class TripServiceImpl implements TripService {
                 if(isShow) {
                     int typeNumber;
                     switch (type) {
-                        case "杂事":
+                        case "chores":
                             typeNumber = 1;
                             break;
-                        case "运动":
+                        case "sport":
                             typeNumber = 2;
                             break;
-                        case "睡觉":
+                        case "sleep":
                             typeNumber = 3;
                             break;
-                        case "学习":
+                        case "study":
                             typeNumber = 4;
                             break;
-                        case "工作":
+                        case "work":
                             typeNumber = 5;
                             break;
-                        case "娱乐":
+                        case "amusement":
                             typeNumber = 6;
                             break;
                         default:
