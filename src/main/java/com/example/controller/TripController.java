@@ -63,9 +63,9 @@ public class TripController {
         long workhour = 0,workmin =0, worksecond = 0 , learnhour = 0, learnmin = 0, learnsecond =0;
         int sporttime = 0,playtime = 0;
         for(Trip trip:tripList){
-            if(Objects.equals(trip.getType(),"sport")){
+            if(Objects.equals(trip.getType(),"运动")){
                 sporttime = sporttime + 1;
-            }else if(Objects.equals(trip.getType(),"play")){
+            }else if(Objects.equals(trip.getType(),"娱乐")){
                 playtime = playtime + 1;
             }else{
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
@@ -73,12 +73,12 @@ public class TripController {
                 LocalDateTime dateTime2 = LocalDateTime.parse(trip.getEndTime(), formatter);
                 Duration duration = Duration.between(dateTime1, dateTime2);
                 System.out.println(trip.getType());
-                if(Objects.equals(trip.getType(),"work")){
+                if(Objects.equals(trip.getType(),"工作")){
                     workhour =workhour + duration.toHours();
                     workmin = workmin+duration.toMinutesPart();
                     worksecond = worksecond+duration.toSecondsPart();
                     System.out.println("工作" +workhour+ " 小时 " +workmin+ " 分钟 " +worksecond+ " 秒");
-                }else if(Objects.equals(trip.getType(), "study")){
+                }else if(Objects.equals(trip.getType(), "学习")){
                     learnhour =learnhour + duration.toHours();
                     learnmin = learnmin+duration.toMinutesPart();
                     learnsecond = learnsecond+duration.toSecondsPart();
@@ -95,6 +95,35 @@ public class TripController {
         list.add((long)playtime);
         list.add((long)sporttime);
         return RestBean.success(list);
+    }
+
+    @PostMapping("delete_trip")
+    public RestBean<String> deleteTrip(@RequestParam int id){
+        if(id < 0){
+            return RestBean.failure(401,"参数错误");
+        }
+        String s = service.deleteTrip(id);
+        return RestBean.success(s);
+    }
+
+    @PostMapping("show_histogram")
+    public RestBean<float[][]> showHistogram(@RequestParam int type){
+        if(type < 1 || type > 3){
+            return RestBean.failure(401);
+        }
+        List<Trip> tripList = service.listTrip();
+        float[][] rawData = service.showHistogram(tripList, type);
+        return RestBean.success(rawData);
+    }
+
+    @PostMapping("show_pieChart")
+    public RestBean<float[]> showPieChart(@RequestParam int type){
+        if(type < 1 || type > 3){
+            return RestBean.failure(401);
+        }
+        List<Trip> tripList = service.listTrip();
+        float[] value = service.showPieChart(tripList, type);
+        return RestBean.success(value);
     }
 }
 

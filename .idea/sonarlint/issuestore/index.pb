@@ -1,0 +1,27 @@
+
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+b
+2src/main/java/com/example/SwaqCodeApplication.java,9\6\969ef5441f84ce13999657f46f9a790b6de82289
+h
+8src/main/java/com/example/controller/TripController.java,6\b\6bebc5ae9b5eca7553dba031aed61d95b5d4e7c1
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+Z
+*src/main/java/com/example/entity/Trip.java,4\1\4107b9d5b3e7ef19f097271451db0bdda7ee561c
+b
+2src/main/java/com/example/service/TripService.java,8\1\811ef80f82df7cef90f2c352c0c2ea4a45f3ed8e
+k
+;src/main/java/com/example/service/Impl/TripServiceImpl.java,3\a\3aedc981020f744828191d75fd62428adfc30e61
+`
+0src/main/java/com/example/mapper/TripMapper.java,5\c\5cdcd96fd2ad1eb766ecb7b429968cd2e8a70fa2
+^
+.src/main/java/com/example/entity/RestBean.java,6\c\6c96921f9d3d8d84f90738473f39b06c0cb70a76
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+w
+G.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,b\4\b4a0b63ce8560bbc5de0f9995c20cc861dc2adb3
+Å
+Q.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d,1\0\10a03f31c4dce92cb371e761ce9429428bb6c176
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
