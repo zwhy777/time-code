@@ -1,0 +1,18 @@
+
+q
+java:S3740<"/Provide the parametrized type for this generic.(È¿§T8”ÒÜ‰2J$5afc7458-6b4f-4afc-bcb6-00153929e54c
+Œ
+java:S1659?"DDeclare "workmin" and all following declarations on a separate line.(Óí‰îùÿÿÿÿ8ÚÒÜ‰2J$474fd302-1121-450b-a2f1-9bf51a5688ae
+i
+java:S1659@"&Declare "playtime" on a separate line.(¤‚â†8ÚÒÜ‰2J$e2225353-c4c9-4cb9-9125-3f47f51dff5f
+m	java:S106K"+Replace this use of System.out by a logger.(Œ•û¯8ßÒÜ‰2J$4a46a0e0-0f49-4b2c-92d9-48dffc38bb1b
+r	java:S106P"+Replace this use of System.out by a logger.(Ð×èóüÿÿÿÿ8àÒÜ‰2J$f9834c9a-e271-413f-9cf6-04faac28e33f
+m	java:S106U"+Replace this use of System.out by a logger.(Ñ½äÂ8àÒÜ‰2J$9dcb706c-1275-4756-b419-ed16088e71ab
+m	java:S106W"+Replace this use of System.out by a logger.( ©Ìò8àÒÜ‰2J$ffbd004d-ea93-46ef-b590-8e03642c2c8c
+r	java:S106X"+Replace this use of System.out by a logger.(Ð±òòùÿÿÿÿ8àÒÜ‰2J$f5d87de0-bfed-47dd-9a38-edb6880498e1
+m	java:S106["+Replace this use of System.out by a logger.(“¸¢»8àÒÜ‰2J$bbde109d-fef3-42e9-a334-d11fee1bd151
+r	java:S106\"+Replace this use of System.out by a logger.(À¤²Ìúÿÿÿÿ8àÒÜ‰2J$936cd8f2-ea78-48c4-bf17-2fc54ace28ee
+
+java:S1128">Remove this unused import 'io.netty.util.internal.StringUtil'.(‡ÛÖ†8ÈŸÓÜ‰2J$1f4632ce-274f-4aa2-af95-eb6332f2bb66
+x
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èýÿÿÿÿ8ÈŸÓÜ‰2J$54519144-1f54-4d43-a559-2d4950645977

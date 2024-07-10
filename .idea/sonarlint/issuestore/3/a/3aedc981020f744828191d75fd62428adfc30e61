@@ -1,0 +1,19 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾ëÑ8ß•íÛ‰2J$74df856d-062c-4571-96cd-0bebc4d822ae
+•
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ÃÇÏ…8¨–íÛ‰2J$35dcca58-ca87-41bd-8bf8-01afc4f63afc
+i
+java:S1168x"&Return an empty array instead of null.(¥¹ï8¬–íÛ‰2J$1f0acb4c-1d37-4db2-91de-c8900633b8ad
+›
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¥¿†üşÿÿÿÿ8­–íÛ‰2J$c9e68323-7764-472d-a12d-bb5c1a5e2e17
+j
+java:S1168Ä"&Return an empty array instead of null.(¥¹ï8¯–íÛ‰2J$614b7b1b-90e3-4fef-a19c-c1e5a43c73a6
+x
+java:S1128
+"0Remove this unused import 'java.time.DayOfWeek'.(Óò»¸şÿÿÿÿ8 ĞãÜ‰2J$c83aa813-67f6-4d76-bee6-5af1dc94fd41
+x
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8¢ĞãÜ‰2J$9f4c4db9-c563-436a-91eb-6ee73e3e5a86
+‰
+java:S65413"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 75 to 64, Complexity from 19 to 14, Nesting Level from 4 to 2, Number of Variables from 20 to 6.(ÃÇÏ…8°–íÛ‰2J$dd5b9105-f2b3-41d1-9f33-06828d501f0a
+
+java:S6541ƒ"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 71 to 64, Complexity from 18 to 14, Nesting Level from 4 to 2, Number of Variables from 18 to 6.(¥¿†üşÿÿÿÿ8°–íÛ‰2J$0381a941-fa9f-470d-87bd-f0dc5c8d0811
